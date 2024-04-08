@@ -112,7 +112,7 @@ html {
 #slider {
   position: relative;
   padding-top: 50%;
-  background-image: url("./accsest/img/chicago.jpg");
+  background-image: url("/accsest/img/chicago.jpg");
   background-position: 0 46px;
   background-repeat: no-repeat;
   background-size: cover;
