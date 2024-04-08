@@ -1,0 +1,112 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+  /* btn */
+  .ux-btn {
+    padding: 15px 16px;
+  }
+  /* contact */
+  .form-control {
+    padding: 15px;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+  /* footer */
+  #footer .socicals a {
+    margin: 0 8px;
+  }
+
+  .copyright a {
+    padding: 13px 0;
+    display: inline-block;
+  }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  #nav .subnav a {
+    padding: 12px 16px;
+  }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+  /* nut bam */
+  .mobile-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* header */
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+
+  /* nav */
+  #nav {
+    display: block;
+  }
+
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 15px 39px;
+  }
+
+  #nav li {
+    display: block;
+  }
+
+  #nav li a {
+    padding: 15px 24px;
+  }
+
+  #nav li:first-child {
+    display: inline-block;
+  }
+
+  /* content */
+  #content .member-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #content .member-item {
+    width: 60%;
+  }
+
+  #content .member-img {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  /* places */
+  .places-list {
+    flex-direction: column;
+  }
+
+  .place-item {
+    width: 100%;
+  }
+  /* contact */
+  .col {
+    float: none;
+    width: 100%;
+  }
+
+  .contact-info {
+    padding-bottom: 32px;
+  }
+}
